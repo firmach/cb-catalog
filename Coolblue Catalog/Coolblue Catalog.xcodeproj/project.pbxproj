@@ -25,6 +25,7 @@
 		83FD6B092835079D00095F52 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD6B082835079D00095F52 /* Product.swift */; };
 		83FD6B0F28350A7B00095F52 /* ProductService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD6B0E28350A7B00095F52 /* ProductService.swift */; };
 		83FD6B1128350B2000095F52 /* ServiceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD6B1028350B2000095F52 /* ServiceLayer.swift */; };
+		83FD6B1728350C6E00095F52 /* CanPresentErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD6B1628350C6E00095F52 /* CanPresentErrors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		83FD6B082835079D00095F52 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		83FD6B0E28350A7B00095F52 /* ProductService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductService.swift; sourceTree = "<group>"; };
 		83FD6B1028350B2000095F52 /* ServiceLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLayer.swift; sourceTree = "<group>"; };
+		83FD6B1628350C6E00095F52 /* CanPresentErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanPresentErrors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,14 +118,15 @@
 		83FD6AC32834F69100095F52 /* Coolblue Catalog */ = {
 			isa = PBXGroup;
 			children = (
-				83FD6AF42835043D00095F52 /* Network */,
+				83FD6AD22834F69100095F52 /* Info.plist */,
 				83FD6AC42834F69100095F52 /* AppDelegate.swift */,
 				83FD6AC62834F69100095F52 /* SceneDelegate.swift */,
+				83FD6ACF2834F69100095F52 /* LaunchScreen.storyboard */,
+				83FD6ACD2834F69100095F52 /* Assets.xcassets */,
+				83FD6AF42835043D00095F52 /* Network */,
+				83FD6B1428350BF800095F52 /* View */,
 				83FD6AC82834F69100095F52 /* ViewController.swift */,
 				83FD6ACA2834F69100095F52 /* Main.storyboard */,
-				83FD6ACD2834F69100095F52 /* Assets.xcassets */,
-				83FD6ACF2834F69100095F52 /* LaunchScreen.storyboard */,
-				83FD6AD22834F69100095F52 /* Info.plist */,
 			);
 			path = "Coolblue Catalog";
 			sourceTree = "<group>";
@@ -184,6 +187,22 @@
 				83FD6B0E28350A7B00095F52 /* ProductService.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		83FD6B1428350BF800095F52 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				83FD6B1528350C4800095F52 /* Common */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		83FD6B1528350C4800095F52 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				83FD6B1628350C6E00095F52 /* CanPresentErrors.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,6 +346,7 @@
 				83FD6AC52834F69100095F52 /* AppDelegate.swift in Sources */,
 				83FD6AF72835048600095F52 /* HTTPClient.swift in Sources */,
 				83FD6AF9283504AB00095F52 /* HTTPMethod.swift in Sources */,
+				83FD6B1728350C6E00095F52 /* CanPresentErrors.swift in Sources */,
 				83FD6AFC283504D800095F52 /* Endpoint.swift in Sources */,
 				83FD6AFE2835060800095F52 /* CoolblueEndpoint.swift in Sources */,
 				83FD6AC72834F69100095F52 /* SceneDelegate.swift in Sources */,
