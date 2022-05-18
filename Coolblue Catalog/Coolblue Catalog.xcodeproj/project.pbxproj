@@ -24,6 +24,7 @@
 		83FD6B072835077200095F52 /* ProductsSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD6B062835077200095F52 /* ProductsSearchResponse.swift */; };
 		83FD6B092835079D00095F52 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD6B082835079D00095F52 /* Product.swift */; };
 		83FD6B0F28350A7B00095F52 /* ProductService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD6B0E28350A7B00095F52 /* ProductService.swift */; };
+		83FD6B1128350B2000095F52 /* ServiceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD6B1028350B2000095F52 /* ServiceLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		83FD6B062835077200095F52 /* ProductsSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsSearchResponse.swift; sourceTree = "<group>"; };
 		83FD6B082835079D00095F52 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		83FD6B0E28350A7B00095F52 /* ProductService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductService.swift; sourceTree = "<group>"; };
+		83FD6B1028350B2000095F52 /* ServiceLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 		83FD6AF42835043D00095F52 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				83FD6B1028350B2000095F52 /* ServiceLayer.swift */,
 				83FD6AFF2835063800095F52 /* NetworkConstants.swift */,
 				83FD6B0D28350A5800095F52 /* Service */,
 				83FD6B032835072200095F52 /* Model */,
@@ -327,6 +330,7 @@
 				83FD6AFC283504D800095F52 /* Endpoint.swift in Sources */,
 				83FD6AFE2835060800095F52 /* CoolblueEndpoint.swift in Sources */,
 				83FD6AC72834F69100095F52 /* SceneDelegate.swift in Sources */,
+				83FD6B1128350B2000095F52 /* ServiceLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
