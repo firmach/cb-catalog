@@ -1,0 +1,27 @@
+# macOS files
+#
+.DS_Store
+
+# Xcode
+xcuserdata/
+
+## Obj-C/Swift specific
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+#
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
+# Package.pins
+# Package.resolved
+.build/
+
+### Xcode Patch ###
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+**/xcshareddata/WorkspaceSettings.xcsettings
