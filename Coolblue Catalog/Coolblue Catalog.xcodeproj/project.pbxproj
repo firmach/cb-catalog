@@ -14,8 +14,6 @@
 		83FD6ACE2834F69100095F52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83FD6ACD2834F69100095F52 /* Assets.xcassets */; };
 		83FD6AD12834F69100095F52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83FD6ACF2834F69100095F52 /* LaunchScreen.storyboard */; };
 		83FD6ADC2834F69200095F52 /* Coolblue_CatalogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD6ADB2834F69200095F52 /* Coolblue_CatalogTests.swift */; };
-		83FD6AE62834F69200095F52 /* Coolblue_CatalogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD6AE52834F69200095F52 /* Coolblue_CatalogUITests.swift */; };
-		83FD6AE82834F69200095F52 /* Coolblue_CatalogUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD6AE72834F69200095F52 /* Coolblue_CatalogUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +45,6 @@
 		83FD6AD72834F69200095F52 /* Coolblue CatalogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coolblue CatalogTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83FD6ADB2834F69200095F52 /* Coolblue_CatalogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coolblue_CatalogTests.swift; sourceTree = "<group>"; };
 		83FD6AE12834F69200095F52 /* Coolblue CatalogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coolblue CatalogUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		83FD6AE52834F69200095F52 /* Coolblue_CatalogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coolblue_CatalogUITests.swift; sourceTree = "<group>"; };
-		83FD6AE72834F69200095F52 /* Coolblue_CatalogUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coolblue_CatalogUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +77,6 @@
 			children = (
 				83FD6AC32834F69100095F52 /* Coolblue Catalog */,
 				83FD6ADA2834F69200095F52 /* Coolblue CatalogTests */,
-				83FD6AE42834F69200095F52 /* Coolblue CatalogUITests */,
 				83FD6AC22834F69100095F52 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -116,15 +111,6 @@
 				83FD6ADB2834F69200095F52 /* Coolblue_CatalogTests.swift */,
 			);
 			path = "Coolblue CatalogTests";
-			sourceTree = "<group>";
-		};
-		83FD6AE42834F69200095F52 /* Coolblue CatalogUITests */ = {
-			isa = PBXGroup;
-			children = (
-				83FD6AE52834F69200095F52 /* Coolblue_CatalogUITests.swift */,
-				83FD6AE72834F69200095F52 /* Coolblue_CatalogUITestsLaunchTests.swift */,
-			);
-			path = "Coolblue CatalogUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,8 +262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83FD6AE62834F69200095F52 /* Coolblue_CatalogUITests.swift in Sources */,
-				83FD6AE82834F69200095F52 /* Coolblue_CatalogUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
