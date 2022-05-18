@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="309" id="POA-Gr-lln" customClass="ProductCell" customModule="Coolblue_Catalog" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="483" height="309"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="POA-Gr-lln" id="gAe-Sc-OxD">
+                <rect key="frame" x="0.0" y="0.0" width="483" height="309"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="RYz-T1-FOh" customClass="URLImageView" customModule="Coolblue_Catalog" customModuleProvider="target">
+                        <rect key="frame" x="20" y="20" width="100" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="jKR-8t-Cyi"/>
+                            <constraint firstAttribute="width" secondItem="RYz-T1-FOh" secondAttribute="height" placeholder="YES" id="nvI-xJ-LuD"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="252" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PiL-rm-TCj">
+                        <rect key="frame" x="128" y="20" width="335" height="17"/>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                        <color key="textColor" name="AccentColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="LG1-gu-84T" customClass="RatingView" customModule="CoolBlue_Blueprint" customModuleProvider="target">
+                        <rect key="frame" x="128" y="45" width="295.5" height="17"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="750" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iQH-Hy-p0O">
+                        <rect key="frame" x="427.5" y="45" width="35.5" height="17"/>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="86R-dr-lzw">
+                        <rect key="frame" x="128" y="70" width="335" height="219"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </stackView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hZu-hJ-hlN">
+                        <rect key="frame" x="4" y="273" width="110" height="24"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d0C-Wm-oQ8">
+                                <rect key="frame" x="4" y="4" width="102" height="16"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="14"/>
+                                <color key="textColor" red="0.92941176469999998" green="0.43921568630000002" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.98823529409999999" green="0.94509803920000002" blue="0.91372549020000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="d0C-Wm-oQ8" firstAttribute="top" secondItem="hZu-hJ-hlN" secondAttribute="top" constant="4" id="5Uw-Zb-XAQ"/>
+                            <constraint firstAttribute="trailing" secondItem="d0C-Wm-oQ8" secondAttribute="trailing" constant="4" id="KVd-aa-9SK"/>
+                            <constraint firstItem="d0C-Wm-oQ8" firstAttribute="leading" secondItem="hZu-hJ-hlN" secondAttribute="leading" constant="4" id="qCd-q7-ubn"/>
+                            <constraint firstAttribute="width" constant="110" id="sUg-8s-Ty4"/>
+                            <constraint firstAttribute="bottom" secondItem="d0C-Wm-oQ8" secondAttribute="bottom" constant="4" id="tZu-BL-z1h"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="RYz-T1-FOh" firstAttribute="leading" secondItem="gAe-Sc-OxD" secondAttribute="leading" constant="20" symbolic="YES" id="1sG-36-XES"/>
+                    <constraint firstAttribute="trailing" secondItem="iQH-Hy-p0O" secondAttribute="trailing" constant="20" symbolic="YES" id="8AH-Kl-wgP"/>
+                    <constraint firstItem="PiL-rm-TCj" firstAttribute="top" secondItem="gAe-Sc-OxD" secondAttribute="top" constant="20" symbolic="YES" id="8cu-za-OrH"/>
+                    <constraint firstAttribute="bottom" secondItem="86R-dr-lzw" secondAttribute="bottom" priority="999" constant="20" symbolic="YES" id="9WQ-7v-L2d"/>
+                    <constraint firstAttribute="bottom" secondItem="hZu-hJ-hlN" secondAttribute="bottom" constant="12" id="9vA-dg-pEQ"/>
+                    <constraint firstItem="86R-dr-lzw" firstAttribute="top" secondItem="LG1-gu-84T" secondAttribute="bottom" constant="8" symbolic="YES" id="FaR-C8-aeo"/>
+                    <constraint firstItem="LG1-gu-84T" firstAttribute="centerY" secondItem="iQH-Hy-p0O" secondAttribute="centerY" id="J17-Zt-p9k"/>
+                    <constraint firstItem="86R-dr-lzw" firstAttribute="leading" secondItem="RYz-T1-FOh" secondAttribute="trailing" constant="8" symbolic="YES" id="KR2-Oa-jGV"/>
+                    <constraint firstItem="LG1-gu-84T" firstAttribute="leading" secondItem="RYz-T1-FOh" secondAttribute="trailing" constant="8" symbolic="YES" id="aEX-oM-a9Q"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="RYz-T1-FOh" secondAttribute="bottom" constant="20" symbolic="YES" id="cIU-xC-9Ji"/>
+                    <constraint firstAttribute="trailing" secondItem="86R-dr-lzw" secondAttribute="trailing" constant="20" symbolic="YES" id="glm-90-TtC"/>
+                    <constraint firstItem="RYz-T1-FOh" firstAttribute="top" secondItem="gAe-Sc-OxD" secondAttribute="top" constant="20" symbolic="YES" id="lXn-E0-oWj"/>
+                    <constraint firstItem="LG1-gu-84T" firstAttribute="top" secondItem="PiL-rm-TCj" secondAttribute="bottom" constant="8" symbolic="YES" id="mZn-2v-Wfh"/>
+                    <constraint firstItem="86R-dr-lzw" firstAttribute="top" secondItem="iQH-Hy-p0O" secondAttribute="bottom" constant="8" symbolic="YES" id="oag-bA-Tty"/>
+                    <constraint firstItem="PiL-rm-TCj" firstAttribute="leading" secondItem="RYz-T1-FOh" secondAttribute="trailing" constant="8" symbolic="YES" id="os2-YS-QxE"/>
+                    <constraint firstItem="iQH-Hy-p0O" firstAttribute="leading" secondItem="LG1-gu-84T" secondAttribute="trailing" constant="4" id="q7u-OO-tEf"/>
+                    <constraint firstItem="hZu-hJ-hlN" firstAttribute="leading" secondItem="gAe-Sc-OxD" secondAttribute="leading" constant="4" id="rtu-9q-quz"/>
+                    <constraint firstAttribute="trailing" secondItem="PiL-rm-TCj" secondAttribute="trailing" constant="20" symbolic="YES" id="wct-rs-aNI"/>
+                    <constraint firstItem="PiL-rm-TCj" firstAttribute="leading" secondItem="RYz-T1-FOh" secondAttribute="trailing" constant="8" symbolic="YES" id="zII-eN-p5d"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="additionalInfoStackView" destination="86R-dr-lzw" id="kDZ-ln-2YJ"/>
+                <outlet property="infoContainer" destination="hZu-hJ-hlN" id="N2A-qQ-eEW"/>
+                <outlet property="infoLabel" destination="d0C-Wm-oQ8" id="brP-OX-rkf"/>
+                <outlet property="photoView" destination="RYz-T1-FOh" id="jHk-jT-qo6"/>
+                <outlet property="ratingView" destination="LG1-gu-84T" id="lE3-4B-zRi"/>
+                <outlet property="reviewsLabel" destination="iQH-Hy-p0O" id="YGZ-aL-Bh3"/>
+                <outlet property="titleLabel" destination="PiL-rm-TCj" id="804-uD-XY7"/>
+            </connections>
+            <point key="canvasLocation" x="72" y="84"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="AccentColor">
+            <color red="0.24699999392032623" green="0.55299997329711914" blue="0.86299997568130493" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83C1C40828353587007368D0 /* TableViewBackgroundView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83C1C40728353587007368D0 /* TableViewBackgroundView.xib */; };
+		83C1C40A283535FB007368D0 /* TableViewBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C1C409283535FB007368D0 /* TableViewBackgroundView.swift */; };
+		83C1C40C28353C26007368D0 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C1C40B28353C26007368D0 /* AppRouter.swift */; };
+		83C1C40E28353D74007368D0 /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83C1C40D28353D74007368D0 /* LoadingCell.xib */; };
+		83C1C41028353D7B007368D0 /* LoadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C1C40F28353D7B007368D0 /* LoadingCell.swift */; };
 		83FD6AC52834F69100095F52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD6AC42834F69100095F52 /* AppDelegate.swift */; };
-		83FD6AC72834F69100095F52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD6AC62834F69100095F52 /* SceneDelegate.swift */; };
-		83FD6AC92834F69100095F52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD6AC82834F69100095F52 /* ViewController.swift */; };
-		83FD6ACC2834F69100095F52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83FD6ACA2834F69100095F52 /* Main.storyboard */; };
 		83FD6ACE2834F69100095F52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83FD6ACD2834F69100095F52 /* Assets.xcassets */; };
 		83FD6AD12834F69100095F52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83FD6ACF2834F69100095F52 /* LaunchScreen.storyboard */; };
 		83FD6ADC2834F69200095F52 /* Coolblue_CatalogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD6ADB2834F69200095F52 /* Coolblue_CatalogTests.swift */; };
@@ -27,6 +29,12 @@
 		83FD6B1128350B2000095F52 /* ServiceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD6B1028350B2000095F52 /* ServiceLayer.swift */; };
 		83FD6B1728350C6E00095F52 /* CanPresentErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD6B1628350C6E00095F52 /* CanPresentErrors.swift */; };
 		83FD6B1928350CDB00095F52 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD6B1828350CDB00095F52 /* NibLoadable.swift */; };
+		83FD6B1C28350D4F00095F52 /* ProductSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD6B1B28350D4F00095F52 /* ProductSearchViewController.swift */; };
+		83FD6B1E28350D6500095F52 /* ProductSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD6B1D28350D6500095F52 /* ProductSearchViewModel.swift */; };
+		83FD6B2028350DCA00095F52 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD6B1F28350DCA00095F52 /* ProductCell.swift */; };
+		83FD6B2228350DD900095F52 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83FD6B2128350DD900095F52 /* ProductCell.xib */; };
+		83FD6B2428350E3D00095F52 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD6B2328350E3D00095F52 /* RatingView.swift */; };
+		83FD6B2628352F7900095F52 /* URLImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD6B2528352F7900095F52 /* URLImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,11 +55,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		83C1C40728353587007368D0 /* TableViewBackgroundView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewBackgroundView.xib; sourceTree = "<group>"; };
+		83C1C409283535FB007368D0 /* TableViewBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewBackgroundView.swift; sourceTree = "<group>"; };
+		83C1C40B28353C26007368D0 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		83C1C40D28353D74007368D0 /* LoadingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingCell.xib; sourceTree = "<group>"; };
+		83C1C40F28353D7B007368D0 /* LoadingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCell.swift; sourceTree = "<group>"; };
 		83FD6AC12834F69100095F52 /* Coolblue Catalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coolblue Catalog.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83FD6AC42834F69100095F52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		83FD6AC62834F69100095F52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		83FD6AC82834F69100095F52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		83FD6ACB2834F69100095F52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83FD6ACD2834F69100095F52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83FD6AD02834F69100095F52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83FD6AD22834F69100095F52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -71,6 +81,12 @@
 		83FD6B1028350B2000095F52 /* ServiceLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLayer.swift; sourceTree = "<group>"; };
 		83FD6B1628350C6E00095F52 /* CanPresentErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanPresentErrors.swift; sourceTree = "<group>"; };
 		83FD6B1828350CDB00095F52 /* NibLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
+		83FD6B1B28350D4F00095F52 /* ProductSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductSearchViewController.swift; sourceTree = "<group>"; };
+		83FD6B1D28350D6500095F52 /* ProductSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductSearchViewModel.swift; sourceTree = "<group>"; };
+		83FD6B1F28350DCA00095F52 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		83FD6B2128350DD900095F52 /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
+		83FD6B2328350E3D00095F52 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		83FD6B2528352F7900095F52 /* URLImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +114,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		83C1C41228354463007368D0 /* ProductCell */ = {
+			isa = PBXGroup;
+			children = (
+				83FD6B1F28350DCA00095F52 /* ProductCell.swift */,
+				83FD6B2128350DD900095F52 /* ProductCell.xib */,
+			);
+			path = ProductCell;
+			sourceTree = "<group>";
+		};
+		83C1C4132835446E007368D0 /* TableViewBackgroundView */ = {
+			isa = PBXGroup;
+			children = (
+				83C1C409283535FB007368D0 /* TableViewBackgroundView.swift */,
+				83C1C40728353587007368D0 /* TableViewBackgroundView.xib */,
+			);
+			path = TableViewBackgroundView;
+			sourceTree = "<group>";
+		};
+		83C1C41428354477007368D0 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				83C1C40F28353D7B007368D0 /* LoadingCell.swift */,
+				83C1C40D28353D74007368D0 /* LoadingCell.xib */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		83FD6AB82834F69100095F52 = {
 			isa = PBXGroup;
 			children = (
@@ -122,13 +165,11 @@
 			children = (
 				83FD6AD22834F69100095F52 /* Info.plist */,
 				83FD6AC42834F69100095F52 /* AppDelegate.swift */,
-				83FD6AC62834F69100095F52 /* SceneDelegate.swift */,
+				83C1C40B28353C26007368D0 /* AppRouter.swift */,
 				83FD6ACF2834F69100095F52 /* LaunchScreen.storyboard */,
 				83FD6ACD2834F69100095F52 /* Assets.xcassets */,
 				83FD6AF42835043D00095F52 /* Network */,
 				83FD6B1428350BF800095F52 /* View */,
-				83FD6AC82834F69100095F52 /* ViewController.swift */,
-				83FD6ACA2834F69100095F52 /* Main.storyboard */,
 			);
 			path = "Coolblue Catalog";
 			sourceTree = "<group>";
@@ -195,6 +236,7 @@
 			isa = PBXGroup;
 			children = (
 				83FD6B1528350C4800095F52 /* Common */,
+				83FD6B1A28350D2B00095F52 /* Search Screen */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -204,8 +246,22 @@
 			children = (
 				83FD6B1628350C6E00095F52 /* CanPresentErrors.swift */,
 				83FD6B1828350CDB00095F52 /* NibLoadable.swift */,
+				83FD6B2328350E3D00095F52 /* RatingView.swift */,
+				83FD6B2528352F7900095F52 /* URLImageView.swift */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		83FD6B1A28350D2B00095F52 /* Search Screen */ = {
+			isa = PBXGroup;
+			children = (
+				83FD6B1B28350D4F00095F52 /* ProductSearchViewController.swift */,
+				83FD6B1D28350D6500095F52 /* ProductSearchViewModel.swift */,
+				83C1C41228354463007368D0 /* ProductCell */,
+				83C1C4132835446E007368D0 /* TableViewBackgroundView */,
+				83C1C41428354477007368D0 /* New Group */,
+			);
+			path = "Search Screen";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,8 +369,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				83FD6AD12834F69100095F52 /* LaunchScreen.storyboard in Resources */,
+				83C1C40828353587007368D0 /* TableViewBackgroundView.xib in Resources */,
+				83C1C40E28353D74007368D0 /* LoadingCell.xib in Resources */,
+				83FD6B2228350DD900095F52 /* ProductCell.xib in Resources */,
 				83FD6ACE2834F69100095F52 /* Assets.xcassets in Resources */,
-				83FD6ACC2834F69100095F52 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,19 +399,25 @@
 			files = (
 				83FD6B02283506DD00095F52 /* SearchCoolblueEndpoint.swift in Sources */,
 				83FD6B002835063800095F52 /* NetworkConstants.swift in Sources */,
+				83C1C41028353D7B007368D0 /* LoadingCell.swift in Sources */,
 				83FD6B072835077200095F52 /* ProductsSearchResponse.swift in Sources */,
-				83FD6AC92834F69100095F52 /* ViewController.swift in Sources */,
+				83FD6B2428350E3D00095F52 /* RatingView.swift in Sources */,
 				83FD6B052835072B00095F52 /* ContainsPaginatedMeta.swift in Sources */,
 				83FD6B092835079D00095F52 /* Product.swift in Sources */,
 				83FD6B0F28350A7B00095F52 /* ProductService.swift in Sources */,
+				83C1C40A283535FB007368D0 /* TableViewBackgroundView.swift in Sources */,
+				83C1C40C28353C26007368D0 /* AppRouter.swift in Sources */,
 				83FD6AC52834F69100095F52 /* AppDelegate.swift in Sources */,
 				83FD6AF72835048600095F52 /* HTTPClient.swift in Sources */,
 				83FD6B1928350CDB00095F52 /* NibLoadable.swift in Sources */,
+				83FD6B1E28350D6500095F52 /* ProductSearchViewModel.swift in Sources */,
 				83FD6AF9283504AB00095F52 /* HTTPMethod.swift in Sources */,
 				83FD6B1728350C6E00095F52 /* CanPresentErrors.swift in Sources */,
+				83FD6B2628352F7900095F52 /* URLImageView.swift in Sources */,
+				83FD6B1C28350D4F00095F52 /* ProductSearchViewController.swift in Sources */,
 				83FD6AFC283504D800095F52 /* Endpoint.swift in Sources */,
+				83FD6B2028350DCA00095F52 /* ProductCell.swift in Sources */,
 				83FD6AFE2835060800095F52 /* CoolblueEndpoint.swift in Sources */,
-				83FD6AC72834F69100095F52 /* SceneDelegate.swift in Sources */,
 				83FD6B1128350B2000095F52 /* ServiceLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,14 +453,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		83FD6ACA2834F69100095F52 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				83FD6ACB2834F69100095F52 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		83FD6ACF2834F69100095F52 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -534,7 +590,7 @@
 				INFOPLIST_FILE = "Coolblue Catalog/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -564,7 +620,7 @@
 				INFOPLIST_FILE = "Coolblue Catalog/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
