@@ -26,6 +26,7 @@
 		83FD6B0F28350A7B00095F52 /* ProductService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD6B0E28350A7B00095F52 /* ProductService.swift */; };
 		83FD6B1128350B2000095F52 /* ServiceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD6B1028350B2000095F52 /* ServiceLayer.swift */; };
 		83FD6B1728350C6E00095F52 /* CanPresentErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD6B1628350C6E00095F52 /* CanPresentErrors.swift */; };
+		83FD6B1928350CDB00095F52 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD6B1828350CDB00095F52 /* NibLoadable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		83FD6B0E28350A7B00095F52 /* ProductService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductService.swift; sourceTree = "<group>"; };
 		83FD6B1028350B2000095F52 /* ServiceLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLayer.swift; sourceTree = "<group>"; };
 		83FD6B1628350C6E00095F52 /* CanPresentErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanPresentErrors.swift; sourceTree = "<group>"; };
+		83FD6B1828350CDB00095F52 /* NibLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				83FD6B1628350C6E00095F52 /* CanPresentErrors.swift */,
+				83FD6B1828350CDB00095F52 /* NibLoadable.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 				83FD6B0F28350A7B00095F52 /* ProductService.swift in Sources */,
 				83FD6AC52834F69100095F52 /* AppDelegate.swift in Sources */,
 				83FD6AF72835048600095F52 /* HTTPClient.swift in Sources */,
+				83FD6B1928350CDB00095F52 /* NibLoadable.swift in Sources */,
 				83FD6AF9283504AB00095F52 /* HTTPMethod.swift in Sources */,
 				83FD6B1728350C6E00095F52 /* CanPresentErrors.swift in Sources */,
 				83FD6AFC283504D800095F52 /* Endpoint.swift in Sources */,
