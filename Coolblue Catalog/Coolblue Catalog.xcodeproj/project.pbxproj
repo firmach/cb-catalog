@@ -23,6 +23,7 @@
 		83FD6B052835072B00095F52 /* ContainsPaginatedMeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD6B042835072B00095F52 /* ContainsPaginatedMeta.swift */; };
 		83FD6B072835077200095F52 /* ProductsSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD6B062835077200095F52 /* ProductsSearchResponse.swift */; };
 		83FD6B092835079D00095F52 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD6B082835079D00095F52 /* Product.swift */; };
+		83FD6B0F28350A7B00095F52 /* ProductService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD6B0E28350A7B00095F52 /* ProductService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		83FD6B042835072B00095F52 /* ContainsPaginatedMeta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsPaginatedMeta.swift; sourceTree = "<group>"; };
 		83FD6B062835077200095F52 /* ProductsSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsSearchResponse.swift; sourceTree = "<group>"; };
 		83FD6B082835079D00095F52 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		83FD6B0E28350A7B00095F52 /* ProductService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				83FD6AFF2835063800095F52 /* NetworkConstants.swift */,
+				83FD6B0D28350A5800095F52 /* Service */,
 				83FD6B032835072200095F52 /* Model */,
 				83FD6AFA283504C700095F52 /* Endpoint */,
 				83FD6AF52835047000095F52 /* Base */,
@@ -170,6 +173,14 @@
 				83FD6B082835079D00095F52 /* Product.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		83FD6B0D28350A5800095F52 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				83FD6B0E28350A7B00095F52 /* ProductService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,6 +320,7 @@
 				83FD6AC92834F69100095F52 /* ViewController.swift in Sources */,
 				83FD6B052835072B00095F52 /* ContainsPaginatedMeta.swift in Sources */,
 				83FD6B092835079D00095F52 /* Product.swift in Sources */,
+				83FD6B0F28350A7B00095F52 /* ProductService.swift in Sources */,
 				83FD6AC52834F69100095F52 /* AppDelegate.swift in Sources */,
 				83FD6AF72835048600095F52 /* HTTPClient.swift in Sources */,
 				83FD6AF9283504AB00095F52 /* HTTPMethod.swift in Sources */,
