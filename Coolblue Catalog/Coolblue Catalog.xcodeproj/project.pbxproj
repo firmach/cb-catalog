@@ -14,6 +14,9 @@
 		83FD6ACE2834F69100095F52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83FD6ACD2834F69100095F52 /* Assets.xcassets */; };
 		83FD6AD12834F69100095F52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83FD6ACF2834F69100095F52 /* LaunchScreen.storyboard */; };
 		83FD6ADC2834F69200095F52 /* Coolblue_CatalogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD6ADB2834F69200095F52 /* Coolblue_CatalogTests.swift */; };
+		83FD6AF72835048600095F52 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD6AF62835048600095F52 /* HTTPClient.swift */; };
+		83FD6AF9283504AB00095F52 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD6AF8283504AB00095F52 /* HTTPMethod.swift */; };
+		83FD6AFC283504D800095F52 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD6AFB283504D800095F52 /* Endpoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		83FD6AD72834F69200095F52 /* Coolblue CatalogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coolblue CatalogTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83FD6ADB2834F69200095F52 /* Coolblue_CatalogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coolblue_CatalogTests.swift; sourceTree = "<group>"; };
 		83FD6AE12834F69200095F52 /* Coolblue CatalogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coolblue CatalogUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83FD6AF62835048600095F52 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		83FD6AF8283504AB00095F52 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		83FD6AFB283504D800095F52 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,7 @@
 		83FD6AC32834F69100095F52 /* Coolblue Catalog */ = {
 			isa = PBXGroup;
 			children = (
+				83FD6AF42835043D00095F52 /* Network */,
 				83FD6AC42834F69100095F52 /* AppDelegate.swift */,
 				83FD6AC62834F69100095F52 /* SceneDelegate.swift */,
 				83FD6AC82834F69100095F52 /* ViewController.swift */,
@@ -111,6 +118,32 @@
 				83FD6ADB2834F69200095F52 /* Coolblue_CatalogTests.swift */,
 			);
 			path = "Coolblue CatalogTests";
+			sourceTree = "<group>";
+		};
+		83FD6AF42835043D00095F52 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				83FD6AFA283504C700095F52 /* Endpoint */,
+				83FD6AF52835047000095F52 /* Base */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		83FD6AF52835047000095F52 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				83FD6AF62835048600095F52 /* HTTPClient.swift */,
+				83FD6AF8283504AB00095F52 /* HTTPMethod.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		83FD6AFA283504C700095F52 /* Endpoint */ = {
+			isa = PBXGroup;
+			children = (
+				83FD6AFB283504D800095F52 /* Endpoint.swift */,
+			);
+			path = Endpoint;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +279,9 @@
 			files = (
 				83FD6AC92834F69100095F52 /* ViewController.swift in Sources */,
 				83FD6AC52834F69100095F52 /* AppDelegate.swift in Sources */,
+				83FD6AF72835048600095F52 /* HTTPClient.swift in Sources */,
+				83FD6AF9283504AB00095F52 /* HTTPMethod.swift in Sources */,
+				83FD6AFC283504D800095F52 /* Endpoint.swift in Sources */,
 				83FD6AC72834F69100095F52 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
