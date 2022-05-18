@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83FD6AC52834F69100095F52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD6AC42834F69100095F52 /* AppDelegate.swift */; };
+		83FD6AC72834F69100095F52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD6AC62834F69100095F52 /* SceneDelegate.swift */; };
+		83FD6AC92834F69100095F52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD6AC82834F69100095F52 /* ViewController.swift */; };
+		83FD6ACC2834F69100095F52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83FD6ACA2834F69100095F52 /* Main.storyboard */; };
+		83FD6ACE2834F69100095F52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83FD6ACD2834F69100095F52 /* Assets.xcassets */; };
+		83FD6AD12834F69100095F52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83FD6ACF2834F69100095F52 /* LaunchScreen.storyboard */; };
+		83FD6ADC2834F69200095F52 /* Coolblue_CatalogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD6ADB2834F69200095F52 /* Coolblue_CatalogTests.swift */; };
+		83FD6AE62834F69200095F52 /* Coolblue_CatalogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD6AE52834F69200095F52 /* Coolblue_CatalogUITests.swift */; };
+		83FD6AE82834F69200095F52 /* Coolblue_CatalogUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD6AE72834F69200095F52 /* Coolblue_CatalogUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83FD6AD82834F69200095F52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83FD6AB92834F69100095F52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83FD6AC02834F69100095F52;
+			remoteInfo = "Coolblue Catalog";
+		};
+		83FD6AE22834F69200095F52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83FD6AB92834F69100095F52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83FD6AC02834F69100095F52;
+			remoteInfo = "Coolblue Catalog";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83FD6AC12834F69100095F52 /* Coolblue Catalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coolblue Catalog.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83FD6AC42834F69100095F52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83FD6AC62834F69100095F52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		83FD6AC82834F69100095F52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83FD6ACB2834F69100095F52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83FD6ACD2834F69100095F52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83FD6AD02834F69100095F52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83FD6AD22834F69100095F52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83FD6AD72834F69200095F52 /* Coolblue CatalogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coolblue CatalogTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83FD6ADB2834F69200095F52 /* Coolblue_CatalogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coolblue_CatalogTests.swift; sourceTree = "<group>"; };
+		83FD6AE12834F69200095F52 /* Coolblue CatalogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coolblue CatalogUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83FD6AE52834F69200095F52 /* Coolblue_CatalogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coolblue_CatalogUITests.swift; sourceTree = "<group>"; };
+		83FD6AE72834F69200095F52 /* Coolblue_CatalogUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coolblue_CatalogUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83FD6ABE2834F69100095F52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83FD6AD42834F69200095F52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83FD6ADE2834F69200095F52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83FD6AB82834F69100095F52 = {
+			isa = PBXGroup;
+			children = (
+				83FD6AC32834F69100095F52 /* Coolblue Catalog */,
+				83FD6ADA2834F69200095F52 /* Coolblue CatalogTests */,
+				83FD6AE42834F69200095F52 /* Coolblue CatalogUITests */,
+				83FD6AC22834F69100095F52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83FD6AC22834F69100095F52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83FD6AC12834F69100095F52 /* Coolblue Catalog.app */,
+				83FD6AD72834F69200095F52 /* Coolblue CatalogTests.xctest */,
+				83FD6AE12834F69200095F52 /* Coolblue CatalogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83FD6AC32834F69100095F52 /* Coolblue Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				83FD6AC42834F69100095F52 /* AppDelegate.swift */,
+				83FD6AC62834F69100095F52 /* SceneDelegate.swift */,
+				83FD6AC82834F69100095F52 /* ViewController.swift */,
+				83FD6ACA2834F69100095F52 /* Main.storyboard */,
+				83FD6ACD2834F69100095F52 /* Assets.xcassets */,
+				83FD6ACF2834F69100095F52 /* LaunchScreen.storyboard */,
+				83FD6AD22834F69100095F52 /* Info.plist */,
+			);
+			path = "Coolblue Catalog";
+			sourceTree = "<group>";
+		};
+		83FD6ADA2834F69200095F52 /* Coolblue CatalogTests */ = {
+			isa = PBXGroup;
+			children = (
+				83FD6ADB2834F69200095F52 /* Coolblue_CatalogTests.swift */,
+			);
+			path = "Coolblue CatalogTests";
+			sourceTree = "<group>";
+		};
+		83FD6AE42834F69200095F52 /* Coolblue CatalogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				83FD6AE52834F69200095F52 /* Coolblue_CatalogUITests.swift */,
+				83FD6AE72834F69200095F52 /* Coolblue_CatalogUITestsLaunchTests.swift */,
+			);
+			path = "Coolblue CatalogUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83FD6AC02834F69100095F52 /* Coolblue Catalog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83FD6AEB2834F69200095F52 /* Build configuration list for PBXNativeTarget "Coolblue Catalog" */;
+			buildPhases = (
+				83FD6ABD2834F69100095F52 /* Sources */,
+				83FD6ABE2834F69100095F52 /* Frameworks */,
+				83FD6ABF2834F69100095F52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Coolblue Catalog";
+			productName = "Coolblue Catalog";
+			productReference = 83FD6AC12834F69100095F52 /* Coolblue Catalog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83FD6AD62834F69200095F52 /* Coolblue CatalogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83FD6AEE2834F69200095F52 /* Build configuration list for PBXNativeTarget "Coolblue CatalogTests" */;
+			buildPhases = (
+				83FD6AD32834F69200095F52 /* Sources */,
+				83FD6AD42834F69200095F52 /* Frameworks */,
+				83FD6AD52834F69200095F52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83FD6AD92834F69200095F52 /* PBXTargetDependency */,
+			);
+			name = "Coolblue CatalogTests";
+			productName = "Coolblue CatalogTests";
+			productReference = 83FD6AD72834F69200095F52 /* Coolblue CatalogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83FD6AE02834F69200095F52 /* Coolblue CatalogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83FD6AF12834F69200095F52 /* Build configuration list for PBXNativeTarget "Coolblue CatalogUITests" */;
+			buildPhases = (
+				83FD6ADD2834F69200095F52 /* Sources */,
+				83FD6ADE2834F69200095F52 /* Frameworks */,
+				83FD6ADF2834F69200095F52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83FD6AE32834F69200095F52 /* PBXTargetDependency */,
+			);
+			name = "Coolblue CatalogUITests";
+			productName = "Coolblue CatalogUITests";
+			productReference = 83FD6AE12834F69200095F52 /* Coolblue CatalogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83FD6AB92834F69100095F52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					83FD6AC02834F69100095F52 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					83FD6AD62834F69200095F52 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 83FD6AC02834F69100095F52;
+					};
+					83FD6AE02834F69200095F52 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 83FD6AC02834F69100095F52;
+					};
+				};
+			};
+			buildConfigurationList = 83FD6ABC2834F69100095F52 /* Build configuration list for PBXProject "Coolblue Catalog" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83FD6AB82834F69100095F52;
+			productRefGroup = 83FD6AC22834F69100095F52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83FD6AC02834F69100095F52 /* Coolblue Catalog */,
+				83FD6AD62834F69200095F52 /* Coolblue CatalogTests */,
+				83FD6AE02834F69200095F52 /* Coolblue CatalogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83FD6ABF2834F69100095F52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83FD6AD12834F69100095F52 /* LaunchScreen.storyboard in Resources */,
+				83FD6ACE2834F69100095F52 /* Assets.xcassets in Resources */,
+				83FD6ACC2834F69100095F52 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83FD6AD52834F69200095F52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83FD6ADF2834F69200095F52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83FD6ABD2834F69100095F52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83FD6AC92834F69100095F52 /* ViewController.swift in Sources */,
+				83FD6AC52834F69100095F52 /* AppDelegate.swift in Sources */,
+				83FD6AC72834F69100095F52 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83FD6AD32834F69200095F52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83FD6ADC2834F69200095F52 /* Coolblue_CatalogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83FD6ADD2834F69200095F52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83FD6AE62834F69200095F52 /* Coolblue_CatalogUITests.swift in Sources */,
+				83FD6AE82834F69200095F52 /* Coolblue_CatalogUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83FD6AD92834F69200095F52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83FD6AC02834F69100095F52 /* Coolblue Catalog */;
+			targetProxy = 83FD6AD82834F69200095F52 /* PBXContainerItemProxy */;
+		};
+		83FD6AE32834F69200095F52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83FD6AC02834F69100095F52 /* Coolblue Catalog */;
+			targetProxy = 83FD6AE22834F69200095F52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83FD6ACA2834F69100095F52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83FD6ACB2834F69100095F52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83FD6ACF2834F69100095F52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83FD6AD02834F69100095F52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83FD6AE92834F69200095F52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83FD6AEA2834F69200095F52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83FD6AEC2834F69200095F52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 454Y33UAWC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Coolblue Catalog/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.firmach.coolblue.Coolblue-Catalog";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		83FD6AED2834F69200095F52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 454Y33UAWC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Coolblue Catalog/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.firmach.coolblue.Coolblue-Catalog";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		83FD6AEF2834F69200095F52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 454Y33UAWC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.firmach.coolblue.Coolblue-CatalogTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coolblue Catalog.app/Coolblue Catalog";
+			};
+			name = Debug;
+		};
+		83FD6AF02834F69200095F52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 454Y33UAWC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.firmach.coolblue.Coolblue-CatalogTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coolblue Catalog.app/Coolblue Catalog";
+			};
+			name = Release;
+		};
+		83FD6AF22834F69200095F52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 454Y33UAWC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.firmach.coolblue.Coolblue-CatalogUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Coolblue Catalog";
+			};
+			name = Debug;
+		};
+		83FD6AF32834F69200095F52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 454Y33UAWC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.firmach.coolblue.Coolblue-CatalogUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Coolblue Catalog";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83FD6ABC2834F69100095F52 /* Build configuration list for PBXProject "Coolblue Catalog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83FD6AE92834F69200095F52 /* Debug */,
+				83FD6AEA2834F69200095F52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83FD6AEB2834F69200095F52 /* Build configuration list for PBXNativeTarget "Coolblue Catalog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83FD6AEC2834F69200095F52 /* Debug */,
+				83FD6AED2834F69200095F52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83FD6AEE2834F69200095F52 /* Build configuration list for PBXNativeTarget "Coolblue CatalogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83FD6AEF2834F69200095F52 /* Debug */,
+				83FD6AF02834F69200095F52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83FD6AF12834F69200095F52 /* Build configuration list for PBXNativeTarget "Coolblue CatalogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83FD6AF22834F69200095F52 /* Debug */,
+				83FD6AF32834F69200095F52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83FD6AB92834F69100095F52 /* Project object */;
+}
