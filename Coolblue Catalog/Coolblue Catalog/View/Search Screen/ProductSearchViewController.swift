@@ -50,6 +50,7 @@ final class ProductSearchViewController: UIViewController, CanPresentErrors {
         title = Strings.title
         
         tableView.dataSource = self
+        tableView.delegate = self
         tableView.prefetchDataSource = self
         
         tableView.translatesAutoresizingMaskIntoConstraints = false
@@ -104,6 +105,17 @@ extension ProductSearchViewController: UITableViewDataSource {
         return cell
     }
     
+}
+
+extension ProductSearchViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        guard let product = viewModel.product(at: indexPath.row) else { return }
+        
+        // experimental feature 😅
+        if let url = URL(string: "https://www.coolblue.nl/product/\(product.productId)") {
+            UIApplication.shared.open(url)
+        }
+    }
 }
 
 // MARK: - UITableViewDataSourcePrefetching
